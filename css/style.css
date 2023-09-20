@@ -1,0 +1,703 @@
+/* ---------- fonts part css start --------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+/* ---------- fonts part css end ----------- */
+
+/* ---------- basic part css start --------- */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.clar {
+    clear: both;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* ---------- basic part css end ----------- */
+/* ----------  hero part css start --------- */
+#hero {
+    background: url(../images/hero-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.main_manu {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_manu .logo_col img {
+    width: 124px;
+}
+
+.nav_items ul {
+    display: flex;
+    gap: 60px;
+}
+
+.nav_items ul li a {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    transition: all linear .5s;
+}
+
+.nav_items ul li a:hover {
+    text-decoration: underline;
+    color: #fbfbfbea;
+}
+
+#hero .banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.banner .photo_col img {
+    width: 480px;
+    padding: 40px 20px 0 20px;
+}
+
+.text_col {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.text_col h1 {
+    font-size: 88px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.text_col h3 {
+    font-size: 38px;
+    line-height: 46px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.store_icon {
+    margin-top: 30px;
+}
+
+.store_icon a img {
+    width: 162px;
+    margin: 5px;
+}
+
+/* ----------  hero part css end ----------- */
+
+/* ---------- engine part css start --------- */
+#engine {
+    padding-top: 100px;
+    padding-bottom: 147px;
+}
+
+.engine_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 42px;
+}
+
+.engine_col {
+    text-align: center;
+}
+
+.engine_col .engine_icon i {
+    font-size: 80px;
+    color: #222;
+    margin-bottom: 26px;
+}
+
+.engine_text h2 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 26px;
+}
+
+.engine_text p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #ecf0f1;
+    margin-top: 108px;
+}
+
+/* ---------- engine part css end ----------- */
+/* ---------- ০rganize part css start --------- */
+#০rganize {
+    padding-bottom: 70px;
+}
+
+.০rganize_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+}
+
+.০rganize_text_col h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57px;
+    letter-spacing: .5px;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+
+.০rganize_text_col p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    margin-bottom: 35px;
+}
+
+.০rganize_text_col .list_items ul li {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 16px;
+    list-style: disc;
+}
+
+.০rganize_button {
+    margin-top: 50px;
+}
+
+.০rganize_button a {
+    font-size: 50px;
+    color: #56A959;
+    float: left;
+    transition: all linear .5s;
+}
+
+.০rganize_button a:hover {
+    color: #222;
+}
+
+.০rganize_button p {
+    margin-top: 14px;
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #4D4D4D;
+    margin-left: 18px;
+    line-height: 100%;
+}
+
+.০rganize_button p span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+}
+
+/* ---------- ০rganize part css end ----------- */
+/* ---------- customers part css start --------- */
+#customers {
+    padding-bottom: 20px;
+    padding-bottom: 115px;
+}
+
+.section_title h1 {
+    font-size: 54px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #222222;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.section_title h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.customers_card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.customers_card_col {
+    border: 1px solid #ecf0f1;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card_col_text p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card_image img {
+    width: 70px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+.card_review span h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 8px;
+}
+
+.card_review i {
+    color: orange;
+    font-size: 15px;
+}
+
+/* ---------- customers part css end ----------- */
+/* ---------- interface part css start --------- */
+.interface_col {
+    text-align: center;
+}
+
+.interface_col .interface_title h1 {
+    font-size: 54px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+}
+
+.interface_image img {
+    width: 100%;
+}
+
+/* ---------- interface part css end ----------- */
+/* ---------- success part css start --------- */
+#success {
+    width: 100%;
+    height: 390px;
+    background: #42A045;
+    padding-top: 111px;
+}
+
+.success_text h1 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.success_text p {
+    width: 890px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.success-icon_row {
+    background: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+    gap: 50px;
+}
+
+.icon_col {
+    float: left;
+}
+
+.icon_col i {
+    font-size: 100px;
+    margin-right: 20px;
+    color: #56A959;
+}
+
+.success_text_col h2 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.success_text_col p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #252D35;
+
+}
+
+/* ---------- success part css end ----------- */
+/* ---------- questions part css start --------- */
+#questions {
+    padding-top: 150px;
+}
+
+.questions_list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+}
+
+.questions_col p {
+    font-size: 19px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.questions_col p span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+.question_link h3 {
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.question_link h3 span a {
+    color: #56A959;
+    font-weight: 600;
+    letter-spacing: .5px;
+    text-decoration: underline;
+}
+
+/* ---------- questions part css end ----------- */
+/* ---------- counter part css end ----------- */
+#counter {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.counter_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+}
+
+.counter_col {
+    text-align: center;
+}
+
+.counter_col i {
+    font-size: 100px;
+    color: #42A045;
+    margin-bottom: 20px;
+}
+
+.counter_col h2 {
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
+.counter_col p {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+/* ---------- counter part css end ----------- */
+/* ---------- banner_two part css end ----------- */
+#banner_two {
+    background: url(../images/download-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 175px 0px;
+}
+
+.banner_two_text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner_two_text p {
+    width: 670px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: .5px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.banner_two_logo{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.banner_two_logo img{
+    width: 157px;
+}
+/* ---------- banner_two part css end ----------- */
+/* ---------- responsive part css end ----------- */
+@media screen and (max-width: 991px) {
+    .container {
+        width: 100%;
+        padding: 0 35px;
+    }
+
+    .fa-bars {
+        color: #fff;
+        font-size: 30px;
+        display: block;
+    }
+
+    .nav_items {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background: #222;
+        display: none;
+    }
+
+    .nav_items ul {
+        display: block;
+    }
+
+    .nav_items ul li {
+        margin: 30px 0;
+    }
+
+    .nav_items ul li a {
+        display: block;
+    }
+
+    .active {
+        display: block;
+    }
+
+    #hero .banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner .photo_col img {
+        margin: 20px 0;
+        padding: 0px;
+    }
+
+    .banner .banner_col_two {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .banner .text_col h1 {
+        font-size: 50px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .banner .text_col h3 {
+        font-size: 34px;
+        line-height: 46px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+    #engine {
+        padding-bottom: 100px;
+    }
+
+    .engine_row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 42px;
+    }
+
+    .line {
+        margin-top: 50px;
+    }
+
+    .০rganize_row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 60px;
+    }
+
+    .০rganize_text_col h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .customers_card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section_title h1 {
+        font-size: 34px;
+    }
+
+    .section_title h3 {
+        font-size: 16px;
+    }
+
+    #success {
+        padding-top: 50px;
+        height: 100%;
+    }
+
+    .success_text h1 {
+        font-size: 38px;
+    }
+
+    .success_text p {
+        width: 100%;
+    }
+
+    .success-icon_row {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px;
+        gap: 50px;
+        border: none;
+        border-radius: 0px;
+    }
+
+    #questions {
+        padding: 60px 0px;
+    }
+
+    .questions_list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .question_link h3 {
+        font-size: 14px;
+    }
+
+    #counter {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+
+    .counter_row {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .counter_col {
+        background: #dff9fb;
+        padding: 20px 0px;
+        border-radius: 10px;
+    }
+
+    .counter_col i {
+        font-size: 80px;
+    }
+
+    .counter_col h2 {
+        font-size: 46px;
+    }
+
+    .counter_col p {
+        font-size: 14px;
+    }
+    #banner_two {
+        padding: 75px 0px;
+    }
+    .banner_two_text h1 {
+        font-size: 35px;
+    }
+
+    .banner_two_text p {
+        width: 100%;
+        font-size: 18px;
+    }
+    .banner_two_logo{
+        display: block;
+        text-align: center;
+    }
+    .banner_two_logo img{
+        margin-bottom:10px;
+    }
+}
+/* ---------- responsive part css end ----------- */
